@@ -9,7 +9,15 @@
   <body>
     <h1>My articles</h1>
     <ul id="articleList"></ul>
-    <script src="savedArticles.js"></script>
+    <form id="newArticleForm">
+      <h2>New article</h2>
+      <label for="newArticleTitle">Title</label>
+      <input id="newArticleTitle" />
+      <label for="newArticleContent">Content</label>
+      <textarea id="newArticleContent"></textarea>
+      <button type="submit">Add</button>
+    </form>
+    <script src="articleList.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
